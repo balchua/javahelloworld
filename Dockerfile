@@ -1,6 +1,6 @@
 FROM balchu/ubuntu-with-vim
 
-MAINTAINER chuabal@gmail.com
+MAINTAINER chuabal@gmail.com loneranger
 
 ENV FOO bar
 
