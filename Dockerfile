@@ -17,7 +17,7 @@ RUN add-apt-repository ppa:webupd8team/java -y \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN apt-get update
-RUN apt-get install iputils-ping
+RUN apt-get install -y iputils-ping
 WORKDIR /home/java
 
 COPY src/HelloWorld.java .
